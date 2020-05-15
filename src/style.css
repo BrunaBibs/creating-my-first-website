@@ -1,11 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,");
 * {
   outline: none !important;
+  scroll-behavior: smooth;
 }
 
 header {
   position: relative;
   z-index: 1000000;
+}
+
+img {
+  border-radius: 4px !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
 }
 
 p {
@@ -32,6 +45,7 @@ p {
 
 .navbar-light .navbar-nav .nav-link {
   color: #2a5788 !important;
+  margin: 0 7px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -122,7 +136,8 @@ p {
   object-fit: cover;
 }
 
-.btnD1 {
+.btnD1,
+.btnD2 {
   border: 1px solid #000 !important;
   color: #000 !important;
   border-radius: 50px !important;
@@ -136,4 +151,31 @@ p {
 .blogpost {
   position: relative;
   padding: 100px 0;
+}
+
+footer {
+  padding: 50px 0;
+}
+
+.sci {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sci li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.sci li a {
+  color: rgb(236, 129, 29);
+  font-size: 2em;
+  transition: 0.5s;
+}
+
+.sci li a:hover {
+  color: rgb(43, 136, 190);
 }
