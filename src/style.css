@@ -35,12 +35,8 @@ p {
   transition: 0.5s;
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: #000 !important;
-  background: #fff !important;
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
+  background: #ffc107 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -57,7 +53,7 @@ p {
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:visited {
-  color: rgba(255, 255, 255, 1) !important;
+  color: #fff !important;
 }
 
 .banner {
