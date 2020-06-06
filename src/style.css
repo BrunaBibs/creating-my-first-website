@@ -27,6 +27,22 @@ p {
 
 .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
   background: #c97800 !important;
+  animation-name: rainbow !important;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: rgb(255, 159, 32);
+  }
+  50% {
+    background-color: rgb(255, 173, 116);
+  }
+  100% {
+    background-color: rgb(255, 123, 22);
+  }
 }
 
 .navbar.scrolled {
